@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openApp(View view)
+    public void showApplicationLabel(View view)
     {
         Button button = (Button) view;
-        String toastText = "This button will open my "+ button.getText()+" app!";
+        String toastText = String.format(getString(R.string.toast_message),button.getText().toString().toLowerCase());
         Toast.makeText(getApplicationContext(),toastText,Toast.LENGTH_SHORT).show();
 
     }

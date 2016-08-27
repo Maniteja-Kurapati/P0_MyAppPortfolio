@@ -7,4 +7,5 @@
     <string name="btn_ubiquituos_txt">GO UBIQUITOUS</string>
     <string name="btn_capstone_txt">CAPSTONE</string>
     <string name="txt_heading">My Nanodegree Apps!</string>
+    <string name="toast_message">This button will open my %1$s app!</string>
 </resources>
